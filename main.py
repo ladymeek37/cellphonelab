@@ -13,6 +13,8 @@ print("CONTACTS:", my_phone.contacts)
 my_phone.receive_text("Hi, Lady!")
 my_phone.receive_text("Wanna skate?")
 
+print("MESSAGES:", my_phone.messages)
+
 my_phone.create_send_messge()
 
 my_phone.toggle_vibrate()
